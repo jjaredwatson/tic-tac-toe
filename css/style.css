@@ -1,12 +1,120 @@
+body {
+  background-image: url('http://data.whicdn.com/images/139305498/original.jpg');
+  z-index: -1;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, .5)
+}
+
 #board {
   margin-top: 10px;
 }
 
-.box {
-  border: 1px solid black;
-  height: 150px;
-  background-color: green;
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  color: #282e33;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 45px;
+  /*font-family: 'Bungee Hairline', cursive;*/
+  width: 125px;
+  height: auto;
+  margin: auto;
+
 }
+
+#heading {
+  font-family: 'Bungee', cursive;
+  font-size: 100px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+
+/*ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center, space-between;
+  flex-direction: row;
+
+}*/
+
+/*#heart {
+  color: rgba(29, 33, 37, .6);
+  font-size: 22px;
+  text-decoration: none;
+}
+
+#share {
+  color: rgba(29, 33, 37, .6);
+  font-size: 22px;
+  text-decoration: none;
+}
+
+#star {
+  color: rgba(29, 33, 37, .6);
+  font-size: 22px;
+  text-decoration: none;
+}
+
+#heart:hover {
+  color: #F64747;
+  text-decoration: none;
+}
+
+#share:hover {
+  color: #22A7F0;
+  text-decoration: none;
+}
+
+#star:hover {
+  color: gold;
+  text-decoration: none;
+}*/
+
+.box {
+  /*border: 1px solid #282e33;*/
+  height: 150px;
+  background-color: #4a545e;
+  background: -webkit-linear-gradient(#23091e, #4a545e); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#23091e, #4a545e); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#23091e, #4a545e); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#23091e, #4a545e); /* Standard syntax (must be last) */
+  border-radius: 50%;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.box-selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, .8);
+  font-family: 'Bungee Outline', cursive;
+  font-size: 80px;
+}
+
+.box:hover {
+  background: -webkit-linear-gradient(#1b0717, #333a41); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1b0717, #333a41); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1b0717, #333a41); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1b0717, #333a41); /* Standard syntax (must be last) */
+}
+
 button {
   margin: 30px;
+  font-family: 'Bungee Hairline', cursive;
+  background: white;
+  color: #282e33;
+  font-size: 25px;
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid rgba(40, 46, 51, .4);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
+
+button:hover {
+  color: #282e33;
+  background-color: rgba(255, 255, 255, .8);
+  border: 1px solid rgba(40, 46, 51, .4);
