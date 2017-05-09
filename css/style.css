@@ -4,31 +4,38 @@ body {
 }
 
 .container {
-  background-color: rgba(255, 255, 255, .5)
+  background-color: rgba(255, 255, 255, .5);
 }
 
 #board {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 h1 {
-  display: flex;
-  justify-content: flex-start;
   color: #282e33;
-  font-family: 'Bungee Shade', cursive;
-  font-size: 45px;
-  /*font-family: 'Bungee Hairline', cursive;*/
-  width: 125px;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 50px;
+  width: 110px;
   height: auto;
-  margin: auto;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, .9);
+  border: 1px solid rgba(40, 46, 51, .4);
+  border-radius: 20px;
+  text-align: center;
+}
 
+.heading {
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 85px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid rgba(40, 46, 51, .4);
+  width: 225px;
+  text-align: center;
 }
 
 #heading {
-  font-family: 'Bungee', cursive;
-  font-size: 100px;
-  display: inline-flex;
-  justify-content: center;
+  align-content: flex-end;
 }
 
 
@@ -88,10 +95,11 @@ h1 {
 .box-selected {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   color: rgba(255, 255, 255, .8);
   font-family: 'Bungee Outline', cursive;
   font-size: 80px;
+  margin: 0 auto;
 }
 
 .box:hover {
@@ -102,6 +110,8 @@ h1 {
 }
 
 button {
+  display: inline-flex;
+  justify-content: center;
   margin: 30px;
   font-family: 'Bungee Hairline', cursive;
   background: white;

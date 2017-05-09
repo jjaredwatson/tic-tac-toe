@@ -45,59 +45,90 @@ $(document).ready(function() {
     if (($box1 === 'x' && $box2 === 'x' ) && $box3 === 'x') {
       var xWins = ('<h2>X Wins</h2>');
       $('#heading').html(xWins);
-      // add the box-selected class to the html to prevent further marking
       $('#heading').addClass("heading");
     }
     else if (($box1 === 'o' && $box2 === 'o' ) && $box3 === 'o') {
-      alert("O wins")
+      var oWins = ('<h2>O Wins</h2>');
+      $('#heading').html(oWins);
+      $('#heading').addClass("heading");
     }
     else if (($box4 === 'x' && $box5 === 'x') && $box6 === 'x') {
-      alert("X wins")
+      var xWins = ('<h2>X Wins</h2>');
+      $('#heading').html(xWins);
+      $('#heading').addClass("heading");
     }
     else if (($box4 === 'o' && $box5 === 'o') && $box6 === 'o') {
-      alert("O wins")
+      var oWins = ('<h2>O Wins</h2>');
+      $('#heading').html(oWins);
+      $('#heading').addClass("heading");
     }
     else if (($box7 === 'x' && $box8 === 'x') && $box9 === 'x') {
-      alert("X wins")
+      var xWins = ('<h2>X Wins</h2>');
+      $('#heading').html(xWins);
+      $('#heading').addClass("heading");
     }
     else if (($box7 === 'o' && $box8 === 'o') && $box9 === 'o') {
-      alert("O wins")
+      var oWins = ('<h2>O Wins</h2>');
+      $('#heading').html(oWins);
+      $('#heading').addClass("heading");
     }
 // Vertical Wins
     else if (($box1 === 'x' && $box4 === 'x') && $box7 === 'x') {
-      alert("X wins")
+      var xWins = ('<h2>X Wins</h2>');
+      $('#heading').html(xWins);
+      $('#heading').addClass("heading");
     }
     else if (($box1 === 'o' && $box4 === 'o') && $box7 === 'o') {
-      alert("O wins")
+      var oWins = ('<h2>O Wins</h2>');
+      $('#heading').html(oWins);
+      $('#heading').addClass("heading");
     }
     else if (($box2 === 'x' && $box5 === 'x') && $box8 === 'x') {
-      alert("X wins")
+      var xWins = ('<h2>X Wins</h2>');
+      $('#heading').html(xWins);
+      $('#heading').addClass("heading");
     }
     else if (($box2 === 'o' && $box5 === 'o') && $box8 === 'o') {
-      alert("O wins")
+      var oWins = ('<h2>O Wins</h2>');
+      $('#heading').html(oWins);
+      $('#heading').addClass("heading");
     }
     else if (($box3 === 'x' && $box6 === 'x') && $box9 === 'x') {
-      alert("X wins")
+      var xWins = ('<h2>X Wins</h2>');
+      $('#heading').html(xWins);
+      $('#heading').addClass("heading");
     }
     else if (($box3 === 'o' && $box6 === 'o') && $box9 === 'o') {
-      alert("O wins")
+      var oWins = ('<h2>O Wins</h2>');
+      $('#heading').html(oWins);
+      $('#heading').addClass("heading");
     }
 // Diagonal Wins
     else if (($box1 === 'x' && $box5 === 'x') && $box9 === 'x') {
-      alert("X wins")
+      var xWins = ('<h2>X Wins</h2>');
+      $('#heading').html(xWins);
+      $('#heading').addClass("heading");
     }
     else if (($box1 === 'o' && $box5 === 'o') && $box9 === 'o') {
-      alert("O wins")
+      var oWins = ('<h2>O Wins</h2>');
+      $('#heading').html(oWins);
+      $('#heading').addClass("heading");
     }
     else if (($box3 === 'x' && $box5 === 'x') && $box7 === 'x') {
-      alert("X wins")
+      var xWins = ('<h2>X Wins</h2>');
+      $('#heading').html(xWins);
+      $('#heading').addClass("heading");
     }
     else if (($box3 === 'o' && $box5 === 'o') && $box7 === 'o') {
-      alert("O wins")
+      var oWins = ('<h2>O Wins</h2>');
+      $('#heading').html(oWins);
+      $('#heading').addClass("heading");
     }
 // Scratch
     else if (moves === 9) {
-      alert("Scratch")
+      var scratch = ('<h2>Scratch</h2>');
+      $('#heading').html(scratch);
+      $('#heading').addClass("heading");
     }
   }
 
